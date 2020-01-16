@@ -3,7 +3,9 @@ let loginpage = require('../pages/loginpage');
 describe('Avalon-Crm login', function () {
 
     it('Launch Sign In page', function () {
+        
         browser.driver.manage().window().maximize();
+        //await browser.waitForAngularEnabled(false);
         browser.sleep(5000)
         loginpage.get('https://avalon.deskera.com/');
         browser.sleep(5000)

@@ -20,7 +20,8 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['C:/Users/Deva/Desktop/Projects/ProtractorDemo/tests/avalonlogin.js'],
+  specs: ['../testcases/avalonlogin.js'],
+
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
